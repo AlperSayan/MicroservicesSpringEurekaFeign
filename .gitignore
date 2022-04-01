@@ -1,0 +1,4 @@
+# Project exclude paths
+/billing/target/
+/products/target/
+/sales/target/
