@@ -6,6 +6,7 @@ import com.alperProje.repository.SaleItemRepository;
 import com.alperProje.repository.SaleRepository;
 import com.alperProje.request.SaleRequest;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -13,6 +14,7 @@ import java.util.*;
 
 @Service
 @AllArgsConstructor
+@Slf4j
 public class SaleService {
     private final SaleRepository saleRepository;
     private final SaleItemRepository saleItemRepository;
